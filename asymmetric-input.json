@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Near-axis explicit-side routing (#74)",
+    "output": "near-axis-asymmetric.html",
+    "quality_profile": "showcase",
+    "viewBox": [900, 600]
+  },
+  "components": [
+    { "id": "api", "type": "backend", "label": "API", "pos": [500, 340], "size": [120, 60] },
+    { "id": "db", "type": "database", "label": "Database", "pos": [515, 100], "size": [60, 60] }
+  ],
+  "boundaries": [],
+  "connections": [
+    { "id": "api-db", "from": "api", "to": "db", "fromSide": "top", "toSide": "bottom" }
+  ],
+  "cards": []
+}
